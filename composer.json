@@ -8,11 +8,7 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
-<<<<<<< HEAD
         "laravel/sanctum": "^4.3",
-=======
-        "laravel/sanctum": "^4.0",
->>>>>>> a75bdd23e3dff99bbb555952210a5af2c1077c34
         "laravel/tinker": "^2.10.1"
     },
     "require-dev": {
@@ -80,12 +76,9 @@
         }
     },
     "config": {
-<<<<<<< HEAD
         "platform": {
             "php" : "8.3.0"
         },
-=======
->>>>>>> a75bdd23e3dff99bbb555952210a5af2c1077c34
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
