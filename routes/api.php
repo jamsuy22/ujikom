@@ -72,4 +72,5 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/pelanggan', [PelangganApiController::class, 'store']);
     Route::put('/pelanggan/{id}', [PelangganApiController::class, 'update']);
     Route::delete('/pelanggan/{id}', [PelangganApiController::class, 'destroy']);
+    //host
 });
