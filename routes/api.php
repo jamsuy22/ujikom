@@ -1,6 +1,6 @@
 <?php
 
-<<<<<<< HEAD
+
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 
@@ -75,11 +75,10 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::delete('/pelanggan/{id}', [PelangganApiController::class, 'destroy']);
     //host
 });
-=======
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;
+
+
 
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
->>>>>>> a75bdd23e3dff99bbb555952210a5af2c1077c34
+
