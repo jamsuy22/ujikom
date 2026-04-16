@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-<<<<<<< HEAD
 use Illuminate\Database\Seeder;
 use App\Models\User;
 use App\Models\Bengkel;
@@ -69,26 +68,3 @@ class DatabaseSeeder extends Seeder
         Pelanggan::factory(10)->create();
     }
 }
-=======
-use App\Models\User;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
-
-class DatabaseSeeder extends Seeder
-{
-    use WithoutModelEvents;
-
-    /**
-     * Seed the application's database.
-     */
-    public function run(): void
-    {
-        // User::factory(10)->create();
-
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
-    }
-}
->>>>>>> a75bdd23e3dff99bbb555952210a5af2c1077c34
